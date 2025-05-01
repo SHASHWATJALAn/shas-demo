@@ -7,6 +7,7 @@ Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number of the month--");
 	int n = sc.nextInt();
 int k=0;
+int x =sc.nextInt();
 switch(n)
 {
 case 1:
