@@ -6,6 +6,11 @@ public static void main(String args[])
 Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number of the month--");
 	int n = sc.nextInt();
+<<<<<<< HEAD
+=======
+int k=0;
+int x =sc.nextInt();
+>>>>>>> ecc62554d91e332552f79d0be416cd43e9bb63f6
 switch(n)
 {
 case 1:
