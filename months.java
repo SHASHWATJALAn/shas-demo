@@ -57,10 +57,13 @@ case 12:
 System.out.println("December"); 
 break;
 
-default:
+default: // if the user enters a number other than 1-12
+	// then this message will be printed
+	// and the program will terminate
+	// without executing any other code
 System.out.println("Invalid input");
 	}
-	sc.close();
+	sc.close(); // closed the scanner object
 	} // end of main
 }
 // end of class
